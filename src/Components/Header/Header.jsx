@@ -3,8 +3,8 @@ import { NavLink } from 'react-router-dom'
 
 function Header() {
 return (
-<header>
-    <div className='container mx-auto px-0 py-10 flex justify-between items-center'>
+<header className="fixed top-0 left-0 w-full bg-white shadow z-50">
+    <div className='container mx-auto px-0 py-6 flex justify-between items-center'>
         <div className="flex items-center gap-[80px]">
             <NavLink to="/">
                 <img src="/Logo.svg" alt="Sayt Logosi" />
@@ -31,7 +31,7 @@ return (
                 <img src="/setting.svg" alt="Heart" />
             </div>
             <div className="w-[45px] h-[45px] overflow-hidden rounded-[50%] cursor-pointer">
-                <img src="/Avatar.png" alt="" />
+                <img className='w-[100%] h-[100%] object-cover' src="/Avatar.png" alt="Avatar" />
             </div>
         </div>
     </div>

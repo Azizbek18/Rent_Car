@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom'
 
 function Hero() {
 return (
-<div className='container mx-auto flex gap-10'>
-    <div className="bg-[#54A6FF] w-[50%] px-[25px] py-5  rounded-[10px]">
+<div className='container mx-auto flex gap-10 pt-[90px]'>
+    <div className="bg-[#54A6FF] w-[50%] px-[25px] py-5 mt-[40px] rounded-[10px]">
         <h1
             className="font-semibold text-[32px] leading-[1.5] tracking-[-0.03em] align-middle text-[white] font-['Plus_Jakarta_Sans']">
             The Best Platform <br /> for Car Rental
@@ -20,7 +20,7 @@ return (
             <img className='w-[80%]' src="/Car.svg" alt="car" />
         </div>
     </div>
-    <div className="bg-[#3563E9] w-[50%] px-[25px] py-5  rounded-[10px]">
+    <div className="bg-[#3563E9] w-[50%] px-[25px] py-5 mt-[40px] rounded-[10px]">
         <h1
             className="font-semibold text-[32px] leading-[1.5] tracking-[-0.03em] align-middle text-[white] font-['Plus_Jakarta_Sans']">
             Easy way to rent a <br /> car at a low price
