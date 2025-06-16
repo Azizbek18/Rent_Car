@@ -14,7 +14,6 @@ function Home() {
           <Card/>
           <Cards/>
       </main>
-      <Footer/>
     </div>
   )
 }
